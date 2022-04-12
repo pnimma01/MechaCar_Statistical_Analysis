@@ -19,7 +19,7 @@ Perform multiple linear regression analysis to identify which variables in the d
 * *Null Hypothesis (H0): The slope of the linear model is zero.*
 * *Alternative Hypothesis (HA): The slope of the linear model is not zero.*
 ### *Results* 
-![multiple lm](https://user-images.githubusercontent.com/73972332/111208753-66b33880-8588-11eb-94ea-bff3fa815220.png)
+![multiple lm](https://github.com/pnimma01/MechaCar_Statistical_Analysis/blob/b7f4c356a0df7189526b25473e0f17571f0233f9/Resources/Hypothesis.png)
 
 Our multiple linear regression analysis demonstrates that 2 of the 5 variables contribute a non-random amount of variance to the mpg values in the dataset:
 * Ground Clearance (p-value: 5.21e-08)
