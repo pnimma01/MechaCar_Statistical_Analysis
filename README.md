@@ -90,9 +90,9 @@ To compare vehicle performance of the MechaCar versus its top competitors, Autos
 * *HA: There is a statistical difference in the mean Fuel Efficiency and Horsepower between the MechaCar and its competitors.* 
 ### What statistical test would you use to test the hypothesis? And why?
 * Fuel Efficiency (Miles Per Gallon)
-    * A two-sample T-Test should be used to perform this analysis since the independent variable is dichotomous (MechaCar vs. Competitors) and the dependent variable (MPG) is continuous.
+    * A two-sample T-Test should be used to perform this analysis since the independent variable is split (MechaCar vs. Competitors) and the dependent variable (MPG) is continuous.
 * Horsepower
-    * A two-sample T-Test should be used to perform this analysis since the independent variable is dichotomous (MechaCar vs. Competitors) and the dependent variable (horsepower) is continuous.
+    * A two-sample T-Test should be used to perform this analysis since the independent variable is split (MechaCar vs. Competitors) and the dependent variable (horsepower) is continuous.
 ### What data is needed to run the statistical test?
 The data that is needed to run the tests will need to be gathered for both competitors and the MechaCar. Data will be needed for two continuous numerical data types:
 * Fuel Efficiency: Fuel Efficiency can be measured by calculating how many miles per gallon the car can achieve at optimal level for both city and highway driving. 
