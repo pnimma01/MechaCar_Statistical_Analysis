@@ -31,12 +31,12 @@ The R-Squared value of this model is 0.71, indicating a moderately strong likeli
 Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 ### *Total Suspension Summary*
 
-![summary stats](https://user-images.githubusercontent.com/73972332/111221559-e4cb0b80-8597-11eb-8926-4b9922874a06.png)
+![summary stats](https://github.com/pnimma01/MechaCar_Statistical_Analysis/blob/9dabaa1c2174c913a5bbe4227bc03e0a902cb335/Resources/Total_Summary.png)
 
 A summary of the entire dataset shows that the mean PSI of the suspension coils is 1498.78 with a variance of 62.29. Because the variance is less than 100, the manufacturing data meets the design specification for all manufacturing lots in total.
 ### *Individual Lot Suspension Summary*
 
-![groupby](https://user-images.githubusercontent.com/73972332/111221626-f7454500-8597-11eb-9aae-e5495a4fe8b1.png)
+![Lot Summary](https://github.com/pnimma01/MechaCar_Statistical_Analysis/blob/9dabaa1c2174c913a5bbe4227bc03e0a902cb335/Resources/Lot_Summary.png)
 
 Looking at each lot individually, we can see that all lots (1-3) produce similar mean PSI values (~1500 PSI), however Lot3 produces extremely high variance (170.28) compared to Lot1 and Lot2 (0.97 and 7.46 respectively).
 Lot1 and Lot2 meet the design specification, but Lot3 does not since the variance produced by this lot exceeds 100.
@@ -48,25 +48,25 @@ Run t-tests to determine if all manufacturing lots and each lot individually are
 * *HA: There’s a statistical difference between the observed sample mean and its presumed population mean.*
 ### *Results*
 #### *Total T Test Summary*
-![t test all](https://user-images.githubusercontent.com/73972332/111227870-7c345c80-85a0-11eb-9406-def6b8f4c8db.png)
+![t test all](https://github.com/pnimma01/MechaCar_Statistical_Analysis/blob/9dabaa1c2174c913a5bbe4227bc03e0a902cb335/Resources/t_test.png)
 
 Comparing the PSI values from all manufacturing lots to the population mean produces a p-value of 0.06, which does not pass our signficance level of 0.05. Therefore, we do not have enough evidence to reject the null hypothesis. This means that when analyzing PSI values from all manufacturing lots combined, there is not significant variation in the lots compared to the population mean.
 
 #### *Lot 1 T Test Summary*
 
-![lot1](https://user-images.githubusercontent.com/73972332/111228283-2f04ba80-85a1-11eb-96d1-831e4a1d40f7.png)
+![lot1](https://github.com/pnimma01/MechaCar_Statistical_Analysis/blob/9dabaa1c2174c913a5bbe4227bc03e0a902cb335/Resources/t_test_lot1.png)
 
 Comparing the PSI values from Lot 1 to the population mean produces a p-value of 1, which does not pass our signficance level of 0.05. Therefore, we do not have enough evidence to reject the null hypothesis. This means that when analyzing PSI values from Lot 1, there is not significant variation in the lots compared to the population mean.
 
 #### *Lot 2 T Test Summary*
 
-![lot 2](https://user-images.githubusercontent.com/73972332/111229310-ec43e200-85a2-11eb-86c3-218a44526118.png)
+![lot 2](https://github.com/pnimma01/MechaCar_Statistical_Analysis/blob/9dabaa1c2174c913a5bbe4227bc03e0a902cb335/Resources/t_test_lot2.png)
 
 Comparing the PSI values from Lot 1 to the population mean produces a p-value of .6072, which does not pass our signficance level of 0.05. Therefore, we do not have enough evidence to reject the null hypothesis. This means that when analyzing PSI values from Lot 2, there is not significant variation in the lots compared to the population mean.
 
 #### *Lot 3 T Test Summary*
 
-![lot 3](https://user-images.githubusercontent.com/73972332/111229473-33ca6e00-85a3-11eb-9632-945f55e06554.png)
+![lot 3](https://github.com/pnimma01/MechaCar_Statistical_Analysis/blob/9dabaa1c2174c913a5bbe4227bc03e0a902cb335/Resources/t_test_lot3.png)
 
 Comparing the PSI values from Lot 1 to the population mean produces a p-value of .04168, which indeed passes our signficance level of 0.05. Therefore, we have enough evidence to fail to reject the null hypothesis. PSI values from Lot 3 are significantly different from the population mean. This supports our previous findings from the summary table, which revealed that the variance in PSI values from Lot 3 did not meet the design specificaiton for the amount of variance allowed.
 
